@@ -1,6 +1,6 @@
 import re
 
-inputfile = "input3.txt"
+inputfile = "inputs/day3.txt"
 
 def is_symbol(character):
     if (character != ".") and (character.isdigit() == False) and ("\n" not in character):
@@ -131,4 +131,5 @@ with open(inputfile, "r") as input:
                 total = total + newnum
             count += 1
         y = y + 1
-    print(total)
+        
+    print("Part 1 Solution:",total)

@@ -1,4 +1,6 @@
-f = open("input1.txt", "r")
+file = "inputs/day1.txt"
+
+f = open(file, "r")
 inputFile = f.read()
 f.close()
 

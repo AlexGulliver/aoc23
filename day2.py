@@ -2,7 +2,7 @@ max_red = 12
 max_green = 13
 max_blue = 14
 
-inputfile = "input2.txt"
+inputfile = "inputs/day2.txt"
 
 input = open(inputfile, "r")
 
